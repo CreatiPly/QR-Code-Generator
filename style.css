@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(5, 11, 45);
+    color: aliceblue;
+    font-family: inter;
+}
+
+
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+    gap: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+textarea {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+
+}
+
+select {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+
+}
+
+#btn {
+    padding: 1rem;
+    background-color: rgb(4, 115, 89);
+    border: none;
+    border-radius: 0.5rem;
+    width: 100%;
+
+}
+
+#btn:hover {
+    background-color: rgba(4, 115, 89, 0.8);
+    cursor: pointer;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+li{
+    width: 3rem;
+    height: 3rem;
+}
+
+.imgs {
+    width: 3rem;
+    height: 3rem;
+    padding: 10px;
+}
+
+.imgs:hover{
+    background-color: rgb(29, 41, 109);
+    border-radius: 10px;
+}
+
+@media (max-width: 706px) {
+    .maindiv {
+
+        width: 80vw;
+
+    }
+}
+
+@media (max-width: 440px) {
+    .maindiv {
+
+        width: 95vw;
+
+    }
+}
