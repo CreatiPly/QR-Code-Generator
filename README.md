@@ -1,3 +1,5 @@
+Check it out live at 👉 https://qr-code-generator-by-haseebkhan.netlify.app/
+
 The QR Code Generator project is a web application that enables users to generate QR codes using HTML, CSS, JavaScript, and the Google Charts API. With a simple and user-friendly interface, users can input data, such as URLs, text, or other information, to be encoded into a QR code.
 
 Features:
